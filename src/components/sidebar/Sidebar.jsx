@@ -10,7 +10,7 @@ import {
   Feedback,
   Message,
   Report,
-  CardTravel
+  CardTravel,
 } from '@material-ui/icons'
 
 const Sidebar = () => {

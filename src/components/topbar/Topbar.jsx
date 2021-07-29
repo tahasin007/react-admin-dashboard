@@ -18,7 +18,7 @@ export default function Topbar() {
           <div className='topperIconContainer'>
             <Settings />
           </div>
-          <img src={ImageUrl} alt="avatar" className="topAvatar" />
+          <img src={ImageUrl} alt='avatar' className='topAvatar' />
         </div>
       </div>
     </div>

@@ -1,59 +1,57 @@
-.topbar{
-    width: 100%;
-    height: 50px;
-    background-color: rgb(228, 228, 228);
-    position: sticky;
-    top:0;
-    left: 0;
-    right: 0;
-    z-index: 999;
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-.topbarWrapper{
-    height: 100%;
-    display: flex;
-    padding: 0 2rem;
-    justify-content: space-between;
-    align-items: center;
+.topbarWrapper {
+  height: 100%;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    font-weight: bold;
-    font-size: 2.5rem;
-    color: rgb(62, 16, 92);
-    cursor: pointer;
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
 }
 
-.topperIconContainer{
-    position: relative;
-    cursor: pointer;
-    margin-right: 1rem;
-    color: #555;
+.topperIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
 }
 
-.topIconCount{
-    position: absolute;
-    top: -.7rem;
-    right: 0rem;
-    background-color : crimson;
-    color: #fff;
-    border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    font-size: .7rem;
+.topIconCount {
+  position: absolute;
+  top: -0.7rem;
+  right: 0rem;
+  background-color: crimson;
+  color: #fff;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
 }
 
-.topRight{
-    display: flex;
-    align-items: center;
+.topRight {
+  display: flex;
+  align-items: center;
 }
 
-.topAvatar{
-    width: 2.2rem;
-    height: 2.2rem;
-    border-radius: 50%;
-    cursor: pointer;
+.topAvatar {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
